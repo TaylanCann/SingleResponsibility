@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace SingleResponsibilityUsingTrue
 {
-    public class MailAdressValidator
+    public class UserValidator
     {
-        public bool IsMailAdressValid(string input)
+        public bool IsUserDatasOK(User user)
         {
-            // Kural denetimini yap
+            // Check user datas
             return true;
         }
     }
